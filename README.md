@@ -3,8 +3,8 @@
 
 ## Ex1
 
-Java provides a client-side socket class Socket and a server-side class ServerSocket. A server application will create an instance of a ServerSocket which will listen on a particular port. When the server accepts an incoming request a Socket object is created to encapsulate this connection and the client and the server will be able to communicate using Input and OutputStreams. On the client-side the client will create a Socket object that will open a connection to the server. The server application`s address and port number must be known.
-Let`s implement an application where a server listens on port 2999. When a client initiates the connection the server will ask the birth date, the client will answer in a DD/MM/YYYY format and the server will return “happy birthday” if the user celebrates his birthday today.
+Java provides a client-side socket class Socket and a server-side class ServerSocket. A server application will create an instance of a ServerSocket which will listen on a particular port. When the server accepts an incoming request a Socket object is created to encapsulate this connection and the client and the server will be able to communicate using Input and OutputStreams. On the client-side the client will create a Socket object that will open a connection to the server. The server application's address and port number must be known.
+Let's implement an application where a server listens on port 2999. When a client initiates the connection the server will ask the birth date, the client will answer in a DD/MM/YYYY format and the server will return “happy birthday” if the user celebrates his birthday today.
 
 For the first exercise run TCPServerSimple and then TCPClientSimple in ex1 package.  
 
